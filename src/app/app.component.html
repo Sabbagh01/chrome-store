@@ -8,10 +8,11 @@
     
     <p class= "title d-flex">Recommended for you <button type="button" class=" button btn btn-outline-primary d2"> View all </button></p>
 <div class= "container-fluid d-flex dd">
-<cs-card>loading</cs-card>
-<cs-card>loading</cs-card>
-<cs-card>loading</cs-card>
-<cs-card>loading</cs-card>
+    <div *ngFor="let product of products" > 
+<cs-card img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-card>
+
 </div>
+</div>
+
 </div>
 </div>
