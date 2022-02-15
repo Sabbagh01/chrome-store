@@ -1,0 +1,11 @@
+<hr  class="new1" >
+<p class= "title d-flex">Accessibility Extensions <button type="button" class=" button btn btn-outline-primary "> View all </button></p>
+<div class= "container-fluid d-flex dd">
+
+    <div class="row">
+        <div class="col"></div>
+    <div class="row">
+    <div class = "col-4" *ngFor="let product of products" > 
+<cs-card img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-card>
+</div>
+<div class="col-4"></div>

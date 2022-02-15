@@ -1,0 +1,16 @@
+ added 6 routes:
+  - home
+  -signin
+  -fun
+  -recommended
+  -photos
+  -accessibility
+  
+  added 6 layout:
+  - home
+  -fun
+  -recommended
+  -photos
+  -accessibility
+
+  
