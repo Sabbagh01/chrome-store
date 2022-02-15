@@ -13,4 +13,4 @@
   -photos
   -accessibility
 
-  
+  for bonus: added 4 new ngfor loop in each layout
