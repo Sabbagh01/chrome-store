@@ -1,16 +1,21 @@
+<div class= "d-flex">
+<cs-nav-recommended class="d2" ></cs-nav-recommended>
 
-<img class = "dd "src="/assets/recommended.png" style="width:830px;"> 
+
+
 
 <div class= "container-fluid  dd">
-    <div class="row">
+    <cs-img-recommended></cs-img-recommended>
+    <div class="row dd">
         <div class="col-9">
             <div class="row">
                <div class="col-3" *ngFor="let product of products" >
         
-                     <cs-card img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-card>
+                     <cs-reccard img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-reccard>
                 </div>
           </div>
 </div>
 
+
 </div>
-</div>
+

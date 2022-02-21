@@ -14,6 +14,12 @@ import { Recommended } from './Navigation/recommended';
 import { Photos } from './Navigation/photos';
 import { Fun } from './Navigation/fun';
 import { Accessibility } from './Navigation/accessibility';
+import { recCard } from './card/rec.card.component';
+import { ImgRec } from './Navigation/img.recommended';
+import { NavRec } from './Navigation/nav.recommended';
+import { NavPhotos } from './Navigation/nav.photos';
+import { PhotosCard } from './card/photos.card.component';
+import { photosCrousel } from './Navigation/crousel.photos';
 
 
 @NgModule({
@@ -29,7 +35,13 @@ import { Accessibility } from './Navigation/accessibility';
     Recommended,
     Photos,
     Fun,
-    Accessibility
+    Accessibility,
+    recCard,
+    ImgRec,
+    NavRec,
+    NavPhotos,
+    PhotosCard,
+    photosCrousel
   ],
   imports: [
     BrowserModule,

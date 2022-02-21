@@ -1,4 +1,8 @@
-<hr  class="new1" >
+<div class= "d-flex">
+<cs-nav-photos class="d2"></cs-nav-photos>
+<div class="container-fluid">
+    <cs-photos-crousel class="d3"></cs-photos-crousel>
+
 <p class= "title d-flex">Our Top Picks <button type="button" class=" button btn btn-outline-primary "> View all </button></p>
 <div class= "container-fluid d-flex dd">
 
@@ -6,6 +10,7 @@
         <div class="col"></div>
     <div class="row">
     <div class = "col-4" *ngFor="let product of products" > 
-<cs-card img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-card>
+<cs-photos-card img={{product.img}} name={{product.name}} star1={{product.star1}} star2={{product.star2}} star3={{product.star3}} star4={{product.star4}} star5={{product.star5}} rating={{product.rating}}>loading</cs-photos-card>
 </div>
 <div class="col-4"></div>
+</div>
