@@ -20,7 +20,8 @@ import { NavRec } from './Navigation/nav.recommended';
 import { NavPhotos } from './Navigation/nav.photos';
 import { PhotosCard } from './card/photos.card.component';
 import { photosCrousel } from './Navigation/crousel.photos';
-
+import {HttpClientModule} from '@angular/common/http';
+import { UserInfoComponent } from 'src/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -41,11 +42,13 @@ import { photosCrousel } from './Navigation/crousel.photos';
     NavRec,
     NavPhotos,
     PhotosCard,
-    photosCrousel
+    photosCrousel,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

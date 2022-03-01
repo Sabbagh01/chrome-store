@@ -19,3 +19,6 @@
   -crousel.photos.ts
   -crousel.photos.css
   
+  create firebase for the backend
+  create user-info component for  my-info.json
+   
