@@ -22,7 +22,7 @@ import { PhotosCard } from './card/photos.card.component';
 import { photosCrousel } from './Navigation/crousel.photos';
 import {HttpClientModule} from '@angular/common/http';
 import { UserInfoComponent } from 'src/user-info/user-info.component';
-import { TestComponent } from './test/test.component';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +45,7 @@ import { TestComponent } from './test/test.component';
     PhotosCard,
     photosCrousel,
     UserInfoComponent,
-    TestComponent
+ 
   ],
   imports: [
     BrowserModule,
