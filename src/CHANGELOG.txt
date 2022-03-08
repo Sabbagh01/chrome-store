@@ -1,24 +1,12 @@
-1-created for recommended page: 
-  -nav.recommended.html
-  -nav.recommended.ts
-  -nav.recommended.css
-  -img.recommended.html
-  -img.recommended.ts
-  -img.recommended.css
-  -rec.card.html (ngfor loop)
-  -rec.card.ts
-  -rec.card.css
-2-created for photos page:
-  -nav.photos.html
-  -nav.photos.ts
-  -nav.photos.css
-  -photos.card.html (ngfor loop)
-  -photos.card.ts
-  -photos.card.css
-  -crousel.photos.html
-  -crousel.photos.ts
-  -crousel.photos.css
-  
-  create firebase for the backend
-  create user-info component for  my-info.json
-   
+
+  1- created firebase products
+      - added  products in firebase
+
+  2- created products.service.ts
+
+  3- added the following artibute in home-layout 
+      - added  products for the home layout
+      - add service for communication
+      - added this.productsService.getProducts().subscribe((data: ProductItemModel[]) => {
+  4-  moved the content of mock data to your realtimedatabase
+    
