@@ -23,6 +23,7 @@ import { photosCrousel } from './Navigation/crousel.photos';
 import {HttpClientModule} from '@angular/common/http';
 import { UserInfoComponent } from 'src/user-info/user-info.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { UserInfoComponent } from 'src/user-info/user-info.component';
     NavPhotos,
     PhotosCard,
     photosCrousel,
-    UserInfoComponent
+    UserInfoComponent,
+ 
   ],
   imports: [
     BrowserModule,
