@@ -9,4 +9,7 @@
       - add service for communication
       - added this.productsService.getProducts().subscribe((data: ProductItemModel[]) => {
   4-  moved the content of mock data to your realtimedatabase
+
+for Bonus:
+    add 3 components from fun.json for fun.ts 
     
