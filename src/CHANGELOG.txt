@@ -1,15 +1,9 @@
 
-  1- created firebase products
-      - added  products in firebase
+  1- created firebase host
+      - add webapp in firebase
 
-  2- created products.service.ts
+  2- updated environment.ts and environment.prod.ts
+      - import firebase functions in environment.ts and environment.prod.ts
 
-  3- added the following artibute in home-layout 
-      - added  products for the home layout
-      - add service for communication
-      - added this.productsService.getProducts().subscribe((data: ProductItemModel[]) => {
-  4-  moved the content of mock data to your realtimedatabase
-
-for Bonus:
-    add 3 components from fun.json for fun.ts 
+  3- released the website
     
