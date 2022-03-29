@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+          <form #postForm="ngForm" (ngSubmit) = "addProduct(postForm.value)">
+              <div class="input-group">
+              <span class="input-group-text">
+                  image path:
+              </span>
+              <input type="text" class="form-control" ngModel name="img">          
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-text">
+                    name:
+                </span>
+                <input type="text" class="form-control"  ngModel name="name">          
+                </div>
+              
+                <div class="input-group">
+              <span class="input-group-text">
+                rating:
+              </span>
+              <input type="text" class="form-control"  ngModel name="rating">          
+              </div>
+                         
+              <div class="input-group">
+              <span class="input-group-text">
+                star1:
+              </span>
+              <input type="text" class="form-control"  ngModel name="star1">          
+              </div>
+               
+              <div class="input-group">
+              <span class="input-group-text">
+                star2:
+              </span>
+              <input type="text" class="form-control"  ngModel name="star2">          
+              </div>
+
+                <div class="input-group">
+              <span class="input-group-text">
+                star3:
+              </span>
+              <input type="text" class="form-control"  ngModel name="star3"> 
+            </div>
+              <div class="input-group">
+                <span class="input-group-text">
+                  star4:
+                </span>
+                <input type="text" class="form-control"  ngModel name="star4">  
+            </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                      star5:
+                    </span>
+                    <input type="text" class="form-control"  ngModel name="star5">        
+                </div>
+              <button type="submit" class="btn btn-light">Add Card</button>  
+            </form>
+        </div>
+    </div>
+</div>

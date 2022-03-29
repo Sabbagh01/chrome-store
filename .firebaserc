@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "chrome-store-8c7ad"
+  },
+  "targets": {
+    "chrome-store-8c7ad": {
+      "hosting": {
+        "chrome-store": [
+          "chrome-store-8c7ad"
+        ]
+      }
+    }
   }
 }

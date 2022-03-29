@@ -8,6 +8,7 @@ import { Recommended } from './Navigation/recommended';
 import { Photos } from './Navigation/photos';
 import { Fun } from './Navigation/fun';
 import { Accessibility } from './Navigation/accessibility';
+import { AddProductComponent } from './store/add-product/add-product.component';
 
 const routes:Routes = [
   { 
@@ -43,8 +44,8 @@ const routes:Routes = [
     component: Accessibility
   },
   {
-    path: 'accessibility',
-    component: Accessibility
+    path: 'admin',
+    component: AddProductComponent
   }
   
 ];

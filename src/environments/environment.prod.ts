@@ -1,4 +1,14 @@
 export const environment = {
+  firebase: {
+    projectId: 'chrome-store-8c7ad',
+    appId: '1:665893488062:web:a666981e8d7862cbb9a5ef',
+    databaseURL: 'https://chrome-store-8c7ad-default-rtdb.firebaseio.com',
+    storageBucket: 'chrome-store-8c7ad.appspot.com',
+    apiKey: 'AIzaSyBf_hkOCp-rg4vw_9Ne3TjM4B5fVPiIa1M',
+    authDomain: 'chrome-store-8c7ad.firebaseapp.com',
+    messagingSenderId: '665893488062',
+    measurementId: 'G-EJV8T1ZVHZ',
+  },
   production: true
 };
 // Import the functions you need from the SDKs you need
