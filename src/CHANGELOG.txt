@@ -1,9 +1,6 @@
 
-  1- created firebase host
-      - add webapp in firebase
-
-  2- updated environment.ts and environment.prod.ts
-      - import firebase functions in environment.ts and environment.prod.ts
-
-  3- released the website
+  1- created admin page
+  2- created firebase products generator for home page
+  3- push admin input in back end
+  3- creaated add product.html
     
