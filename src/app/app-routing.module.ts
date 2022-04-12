@@ -9,8 +9,10 @@ import { Photos } from './Navigation/photos';
 import { Fun } from './Navigation/fun';
 import { Accessibility } from './Navigation/accessibility';
 import { AddProductComponent } from './store/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
+  {path: 'auth', component: AuthenticationComponent},
   { 
     path: 'themes', 
     component: Themes
