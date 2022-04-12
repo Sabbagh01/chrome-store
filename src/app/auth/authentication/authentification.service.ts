@@ -1,6 +1,10 @@
 import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
 import { environment } from "src/environments/environment";
 
+@Injectable({
+    providedIn:'root'
+})
 export class AuthenticationService{
     baseUrl:string = "https://identitytoolkit.googleapis.com/v1/accounts";
     signUpEndpoint:string = "signUp";

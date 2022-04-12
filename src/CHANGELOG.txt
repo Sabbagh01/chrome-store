@@ -1,6 +1,10 @@
+-Created AuthenticationComponent:
+  1-created app\auth\authentication\authentication.component.ts
+  2-created app\auth\authentication\authentication.component.html:
+     added input box for signup and login using NgForm
 
-  1- created admin page
-  2- created firebase products generator for home page
-  3- push admin input in back end
-  3- creaated add product.html
-    
+
+Connect the Authentication Component with the Authentication Service:
+- created AuthenticationService component:
+   1- created auth\authentication\authentification.service.ts
+
